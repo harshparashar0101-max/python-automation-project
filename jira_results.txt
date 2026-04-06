@@ -1,0 +1,34 @@
+JQL Query: project = LOGI AND type = Test AND labels = LOGI-7 ORDER BY created DESC
+Total Issues Found: 3
+============================================================
+
+Issue Key   : LOGI-23
+Summary     : Verify login with invalid password
+Status      : To Do
+Assignee    : Unassigned
+Priority    : Medium
+Created     : 2026-04-03
+Updated     : 2026-04-03
+Description : This test verifies that the system prevents login when a valid email is entered with an incorrect password. It ensures proper validation and error handling for incorrect credentials.
+Labels      : LOGI-7, dashboard, medium
+------------------------------------------------------------
+Issue Key   : LOGI-22
+Summary     : Verify login with valid credentials
+Status      : To Do
+Assignee    : Unassigned
+Priority    : Medium
+Created     : 2026-04-03
+Updated     : 2026-04-03
+Description : This test verifies that a registered user is able to successfully log in to the application using valid email and password. It ensures that the authentication mechanism works correctly and the user is redirected to the dashboard upon successful login.
+Labels      : LOGI-7, dashboard, medium
+------------------------------------------------------------
+Issue Key   : LOGI-18
+Summary     : Verify User is able to login
+Status      : To Do
+Assignee    : Unassigned
+Priority    : High
+Created     : 2026-04-03
+Updated     : 2026-04-03
+Description : null
+Labels      : LOGI-7, UserLogin
+------------------------------------------------------------

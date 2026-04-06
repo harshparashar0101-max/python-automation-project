@@ -1,0 +1,44 @@
+Date        : 2026-04-01
+JQL Query   : 
+ project = LOGI
+AND assignee = 712020:72560a88-46b5-48a9-9473-e38682cdc867
+AND sprint = 4894
+AND type IN ("Bug/Defect", "UserStory (Feature Enhancement)", "Technical Debt")
+ORDER BY created DESC
+
+Total Issues: 3
+============================================================
+
+Issue Key   : LOGI-57236
+Summary     : Replace ON24 logo on Account Engagement Profile pages with new logo
+Type        : UserStory (Feature Enhancement)
+Status      : QA-In Progress
+Assignee    : c-Harsh Parasher
+Priority    : Critical
+Created     : 2026-03-25
+Updated     : 2026-03-31
+Labels      : null
+------------------------------------------------------------
+
+Issue Key   : LOGI-57235
+Summary     : Replace ON24 logo on Prospect Engagement Profile pages with new logo
+Type        : UserStory (Feature Enhancement)
+Status      : QA-On Hold
+Assignee    : c-Harsh Parasher
+Priority    : Critical
+Created     : 2026-03-25
+Updated     : 2026-04-01
+Labels      : null
+------------------------------------------------------------
+
+Issue Key   : LOGI-57269
+Summary     : Replace ON24 logo on VCM Analytics pages with new logo
+Type        : UserStory (Feature Enhancement)
+Status      : QA-In Progress
+Assignee    : c-Harsh Parasher
+Priority    : Critical
+Created     : 2026-03-25
+Updated     : 2026-03-31
+Labels      : null
+------------------------------------------------------------
+

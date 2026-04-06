@@ -1,0 +1,110 @@
+from jira import JIRA
+from datetime import date
+
+# ─────────────────────────────────────────
+# 🔧 YOUR CONFIGURATION
+# ─────────────────────────────────────────
+
+JIRA_URL  = "https://on24-inc.atlassian.net"
+EMAIL     = "c-harsh.parasher@on24.com"
+API_TOKEN = ""
+
+OUTPUT_FILE = "jira_reprotingsubissue.txt"
+
+# ─────────────────────────────────────────
+# 📅 Get Today's Date from System
+# ─────────────────────────────────────────
+
+TODAY = date.today().strftime("%Y-%m-%d")
+print(f"📅 Today's Date: {TODAY}")
+
+# ─────────────────────────────────────────
+# 🔍 Build JQL with Today's Date
+# ─────────────────────────────────────────
+
+JQL_QUERY = f"""
+    project = LOGI
+    AND assignee = 712020:72560a88-46b5-48a9-9473-e38682cdc867
+    AND type IN ("Bug/Defect", "UserStory (Feature Enhancement)", "Technical Debt")
+    AND sprint = 4894
+   ORDER BY created DESC
+"""
+
+# ─────────────────────────────────────────
+# 🔌 Connect to Jira
+# ─────────────────────────────────────────
+
+print("Connecting to Jira...")
+jira = JIRA(server=JIRA_URL, basic_auth=(EMAIL, API_TOKEN))
+print("✅ Connected successfully!")
+
+# ─────────────────────────────────────────
+# 🔍 Helper — Fetch Sub-issues of an issue
+# ─────────────────────────────────────────
+
+def get_sub_issues(jira, parent_key):
+    """Fetch only sub-issues (exclude Sub-tasks) for a given parent issue key."""
+    try:
+        sub_jql = f'parent = {parent_key} AND type = "Sub Issue"'
+        sub_issues = jira.search_issues(sub_jql, maxResults=50)
+        return sub_issues
+    except Exception:
+        return []
+
+# ─────────────────────────────────────────
+# 🔍 Run JQL Query
+# ─────────────────────────────────────────
+
+print(f"Running JQL: {JQL_QUERY}")
+issues = jira.search_issues(JQL_QUERY, maxResults=100)
+print(f"✅ Found {len(issues)} issues")
+
+# ─────────────────────────────────────────
+# 💾 Save Results to Text File
+# ─────────────────────────────────────────
+
+with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+
+    f.write(f"Date        : {TODAY}\n")
+    f.write(f"JQL Query   : {JQL_QUERY}\n")
+    f.write(f"Total Issues: {len(issues)}\n")
+    f.write("=" * 60 + "\n\n")
+
+    if not issues:
+        f.write("No issues found for today.\n")
+
+    else:
+        for issue in issues:
+
+            # ── Main Issue Details ──
+            f.write(f"Issue Key   : {issue.key}\n")
+            f.write(f"Summary     : {issue.fields.summary}\n")
+            f.write(f"Type        : {issue.fields.issuetype.name}\n")
+            f.write(f"Status      : {issue.fields.status.name}\n")
+            f.write(f"Assignee    : {issue.fields.assignee.displayName if issue.fields.assignee else 'null'}\n")
+            f.write(f"Priority    : {issue.fields.priority.name if issue.fields.priority else 'null'}\n")
+            f.write(f"Created     : {issue.fields.created[:10]}\n")
+            f.write(f"Updated     : {issue.fields.updated[:10]}\n")
+            #f.write(f"Description : {issue.fields.description if issue.fields.description else 'null'}\n")
+            #f.write(f"Labels      : {', '.join(issue.fields.labels) if issue.fields.labels else 'null'}\n")
+
+            # ── Sub-issues ──
+            print(f"  🔍 Fetching sub-issues for {issue.key}...")
+            sub_issues = get_sub_issues(jira, issue.key)
+
+            f.write(f"Sub-issues  : {len(sub_issues)} found\n")
+
+            if sub_issues:
+                for sub in sub_issues:
+                    f.write(f"\n  ┌─ Sub Issue ID  : {sub.key}\n")
+                    f.write(f"  ├─ Summary      : {sub.fields.summary}\n")
+                    f.write(f"  ├─ Type         : {sub.fields.issuetype.name}\n")
+                    f.write(f"  ├─ Status       : {sub.fields.status.name}\n")
+                    f.write(f"  ├─ Assignee     : {sub.fields.assignee.displayName if sub.fields.assignee else 'null'}\n")
+                    #f.write(f"  └─ Description  : {sub.fields.description if sub.fields.description else 'null'}\n")
+            else:
+                f.write("  No sub-issues found.\n")
+
+            f.write("-" * 60 + "\n\n")
+
+print(f"\n✅ Results saved to '{OUTPUT_FILE}'")

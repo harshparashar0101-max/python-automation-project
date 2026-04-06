@@ -1,0 +1,68 @@
+Date        : 2026-04-01
+JQL Query   : 
+    project = LOGI
+    AND assignee = 712020:72560a88-46b5-48a9-9473-e38682cdc867
+    AND type IN ("Bug/Defect", "UserStory (Feature Enhancement)", "Technical Debt")
+    AND sprint = 4894
+   ORDER BY created DESC
+
+Total Issues: 3
+============================================================
+
+Issue Key   : LOGI-57236
+Summary     : Replace ON24 logo on Account Engagement Profile pages with new logo
+Type        : UserStory (Feature Enhancement)
+Status      : QA-In Progress
+Assignee    : c-Harsh Parasher
+Priority    : Critical
+Created     : 2026-03-25
+Updated     : 2026-03-31
+Sub-issues  : 2 found
+
+  ┌─ Sub Issue ID  : LOGI-57494
+  ├─ Summary      : LOGO:AEP: "Account engagement profile" text is not translate in logo
+  ├─ Type         : Sub Issue
+  ├─ Status       : Dev-Assigned
+  ├─ Assignee     : c-Juan Gomez
+
+  ┌─ Sub Issue ID  : LOGI-57473
+  ├─ Summary      : LOGO:AEP: Position of the logo is not correct in JPN  when long text is entered on domain
+  ├─ Type         : Sub Issue
+  ├─ Status       : Dev-Assigned
+  ├─ Assignee     : c-Juan Gomez
+------------------------------------------------------------
+
+Issue Key   : LOGI-57235
+Summary     : Replace ON24 logo on Prospect Engagement Profile pages with new logo
+Type        : UserStory (Feature Enhancement)
+Status      : QA-On Hold
+Assignee    : c-Harsh Parasher
+Priority    : Critical
+Created     : 2026-03-25
+Updated     : 2026-04-01
+Sub-issues  : 1 found
+
+  ┌─ Sub Issue ID  : LOGI-57530
+  ├─ Summary      : LOGO:PEP: New logo text size is displaying small as compared to NA and EU environment 
+  ├─ Type         : Sub Issue
+  ├─ Status       : Closed
+  ├─ Assignee     : c-Harsh Parasher
+------------------------------------------------------------
+
+Issue Key   : LOGI-57269
+Summary     : Replace ON24 logo on VCM Analytics pages with new logo
+Type        : UserStory (Feature Enhancement)
+Status      : QA-In Progress
+Assignee    : c-Harsh Parasher
+Priority    : Critical
+Created     : 2026-03-25
+Updated     : 2026-03-31
+Sub-issues  : 1 found
+
+  ┌─ Sub Issue ID  : LOGI-57534
+  ├─ Summary      : Logo: VCAnalytics : Text "virtual conference manager" and logo are not in same size
+  ├─ Type         : Sub Issue
+  ├─ Status       : Dev-Assigned
+  ├─ Assignee     : c-Alejandro Varon
+------------------------------------------------------------
+

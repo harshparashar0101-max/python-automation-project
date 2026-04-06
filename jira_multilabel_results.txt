@@ -1,0 +1,1093 @@
+
+============================================================
+LABEL       : c-log-vshowanalytics
+JQL         : project = LOGI AND type = Test AND labels = "c-log-vshowanalytics"
+Total Issues: 56
+============================================================
+
+Issue Key   : LOGI-51183
+Summary     : VC Analytics: PII: Verify access for VC account logins and Verify access for ON24 logins and also  Verify backward compatibility for existing reports
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2025-06-03
+Updated     : 2026-03-31
+Description :  Verify access for VC account logins and Verify access for ON24 logins and also  Verify backward compatibility for existing reports
+Labels      : 25.3.1, LOGI-49900, c-log-vshowanalytics, createdbyTA, manual, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-51182
+Summary     : VC Analytics: Verify PII fields in Survey Report when Custom 6 = No
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2025-06-03
+Updated     : 2026-03-31
+Description : Verify PII fields in Survey Report when Custom 6 = Yes when sponsor admin login
+Labels      : 25.3.1, LOGI-49900, c-log-vshowanalytics, createdbyTA, manual, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-51181
+Summary     : 008:VC Analytics: Verify PII fields in Survey Report when Custom 6 = Yes
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2025-06-03
+Updated     : 2026-03-31
+Description : Verify PII fields in Survey Report when Custom 6 = Yes when sponsor admin login
+Labels      : LOGI-49900, c-log-vshowanalytics, createdbyTA, manual, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-51180
+Summary     : VC analytics : Verify PII fields in Drawing / Leaderboard Report when Custom 6 = No
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2025-06-03
+Updated     : 2026-03-31
+Description : Verify PII fields in Drawing / Leaderboard Report when Custom 6 = No when sponsor admin login
+Labels      : 25.3.1, LOGI-49900, c-log-vshowanalytics, createdbyTA, manual, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-51179
+Summary     : VC Analytics: Verify PII fields in Test Report when Custom 6 = No
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2025-06-03
+Updated     : 2026-03-31
+Description : Verify PII fields in Test Report when Custom 6 = No when sponsor user login
+Labels      : 25.3.1, LOGI-49900, c-log-vshowanalytics, createdbyTA, manual, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-51178
+Summary     :  VC Analytics: Verify PII fields in Curriculums Report when Custom 6 = No
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2025-06-03
+Updated     : 2026-03-31
+Description : Verify PII fields in Curriculums Report when Custom 6 = No when user login sponsor admin
+Labels      : 25.3.1, LOGI-49900, c-log-vshowanalytics, createdbyTA, manual, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-51177
+Summary     : VC Analytics: Verify PII fields in Content Overview Report when Custom 6 = No
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2025-06-03
+Updated     : 2026-03-31
+Description :  Verify PII fields in Content Overview Report when Custom 6 = No when user login from sponsor admin
+Labels      : 25.3.1, LOGI-49900, c-log-vshowanalytics, createdbyTA, manual, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-51176
+Summary     : VC Analytics: Verify PII fields in Activity > Chats Report when Custom 6 = No
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2025-06-03
+Updated     : 2026-03-31
+Description : Verify PII fields in Activity > Chats Report when Custom 6 = No when user login through sponsor admin
+Labels      : 25.3.1, LOGI-49900, c-log-vshowanalytics, createdbyTA, manual, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-51175
+Summary     : VC Analytics : Verify PII fields in Activity > Conversions Report when Custom 6 = No
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2025-06-03
+Updated     : 2026-03-31
+Description : Verify PII fields in Activity > Conversions Report when Custom 6 = No when user login from sponsor admin
+Labels      : 25.3.1, LOGI-49900, c-log-vshowanalytics, createdbyTA, manual, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-51174
+Summary     : VC Analytics: PII: Verify PII fields in Attendance Report when Custom 6 = No
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2025-06-03
+Updated     : 2026-03-31
+Description : Verify PII fields in Attendance Report when Custom 6 = No when user enter through Sponsor admin
+Labels      : 25.3.1, LOGI-49900, Report, c-log-vshowanalytics, createdbyTA, manual, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-51173
+Summary     : VC Analytics : PII: Verify PII fields in Registration Report when Custom 6 = No
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2025-06-03
+Updated     : 2026-03-31
+Description : Verify PII fields in Registration Report when Custom 6 = No when sponsor admin login
+Labels      : 25.3.1, LOGI-49900, Report, c-log-vshowanalytics, createdbyTA, manual, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-49250
+Summary     : Verify partner reference is not captured When user doest put partneref in URL'S
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2025-02-26
+Updated     : 2026-03-31
+Description : User Register without partneref , partneref should not display
+Labels      : 25.2.1, LOGI-48589, c-log-vshowanalytics, createdbyTA, daily3, manual, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-49249
+Summary     : Verify partner reference is captured at Direct links Flow (D2Content, D2Curriculum , D2CLocation, D2C CHAT, D2C SURVEY ,) in Attendees Sessions - Detailed Data Service Report
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2025-02-26
+Updated     : 2026-03-31
+Description : User Login with D2C URL with partneref ,partneref should display in Attendees Sessions data service report
+Labels      : 25.2.1, LOGI-48589, c-log-vshowanalytics, createdbyTA, daily3, manual, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-49248
+Summary     : Verify partner reference is captured during login flow in Attendees Sessions - Detailed Data Service Report
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2025-02-26
+Updated     : 2026-03-31
+Description : User Login with Registration URL with partneref,  partneref should display in Attendees Sessions data service report
+Labels      : 25.2.1, LOGI-48589, c-log-vshowanalytics, createdbyTA, daily3, manual, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-49241
+Summary     : Verify partner reference is captured during registration flow in Attendees Sessions - Detailed Data Service Report
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2025-02-26
+Updated     : 2026-03-31
+Description : User Register with Registration URL with partneref,  partneref should display in Attendees Sessions data service report
+Labels      : 25.2.1, LOGI-48589, c-log-vshowanalytics, createdbyTA, daily3, manual, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-41677
+Summary     : 001  - Verify new column IS_DELETED column to the Webcast Pre-Register report 
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-12-20
+Updated     : 2026-03-31
+Description : Tests As a user of the VC Data Services, I need a new column called “IS_DELETED” showing if the user was deleted or not.
+Labels      : LOGI-41242, c-log-vshowanalytics, daily4, manual, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-39928
+Summary     : Verify the total content number is displaying next to Curriculum Title
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-09-20
+Updated     : 2026-03-31
+Description : On the Curriculum title, add the total number of contents in the curriculum next to the name:  ?<Curriculum title> (<content number>)?
+Labels      : LOGI-39739, c-log-vshowanalytics, daily4, manual, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36912
+Summary     : Verify the Test and Test Participants data table with export functionality in on24 test report
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : Verify the Test and Test Participants data table with export functionality in on24 test report
+Labels      : VEM, analayticsDevelopment, c-log-vshowanalytics, high, logi, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36911
+Summary     : Verify the briefcase report with scheduler ,filter and export excel functionality
+Status      : Open
+Assignee    : Pavel Preyomyshev
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : In this Jira , We Verify the briefcase report with scheduler ,filter and export excel functionality
+Labels      : MANUAL, ORPHAN, analytics, c-log-vshowanalytics, logi, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36910
+Summary     : Verify the conversion report with scheduler ,filter and export excel functionality
+Status      : Open
+Assignee    : Gurmeet Singh
+Priority    : High
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : In this Jira, We are Verify the conversion report with scheduler ,filter and export excel functionality
+Labels      : MANUAL, ORPHAN, analytics, c-log-vshowanalytics, high, logi, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36908
+Summary     : Verify the survey report with scheduler ,filter and export excel functionality
+Status      : Open
+Assignee    : null
+Priority    : High
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : In this, We are Verify the survey report with scheduler ,filter and export excel functionality
+Labels      : MANUAL, ORPHAN, analytics, c-log-vshowanalytics, high, logi, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36906
+Summary     : Verify the  Drawing / Leaderboard Activity Timeline and Drawing / Leaderboard Activities graph in drawing leaderboard report
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : Verify the Drawing / Leaderboard Activity Timeline and Drawing / Leaderboard Activities graph in drawing leaderboard report
+Labels      : MANUAL, analayticsDevelopment, analytics, c-log-vshowanalytics, logi, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36899
+Summary     : Verify Presence of Drawing/Leaderboard Page – When NO Drawing/Leaderboard has been created yet in the show
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : MANUAL, analayticsDevelopment, analytics, c-log-vshowanalytics, logi, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36898
+Summary     : Verify the attendee data table with excel report in attendee report 
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : MANUAL, analayticsDevelopment, analytics, c-log-vshowanalytics, logi, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36897
+Summary     : Verify the Survey and Survey Respondent data table in survey report
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : Verify the Survey and Survey Respondent data table in survey report
+Labels      : MANUAL, analayticsDevelopment, analytics, c-log-vshowanalytics, logi, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36894
+Summary     : Verify the chats report with scheduler ,filter and export excel functionality
+Status      : Open
+Assignee    : null
+Priority    : High
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : In this Jira, We are Verify the conversion report with scheduler ,filter and export excel functionality
+Labels      : MANUAL, ORPHAN, analytics, c-log-vshowanalytics, high, logi, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36893
+Summary     : Verify the Drawing / Leaderboard Activity Detail data table in drawing leaderboard report
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : Verify the Drawing / Leaderboard Activity Detail data table in drawing leaderboard report
+Labels      : MANUAL, analayticsDevelopment, analytics, c-log-vshowanalytics, logi, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36891
+Summary     : Verify the drawing leaderboard report with scheduler ,filter and export excel functionality
+Status      : Open
+Assignee    : null
+Priority    : High
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : In this Jira , We are Verify the drawing leaderboard report with scheduler ,filter and export excel functionality
+Labels      : MANUAL, ORPHAN, analytics, c-log-vshowanalytics, high, logi, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36888
+Summary     : Verify the chat data table with include details checkbox and export excel functionality in chat report
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : Verify the chat data table with include details checkbox and export excel functionality in chat report
+Labels      : MANUAL, analayticsDevelopment, analytics, c-log-vshowanalytics, logi, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36887
+Summary     : Verify the Conversation details data with export excel functionality conversion report
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : Verify the Conversation details data with export excel functionality conversion report
+Labels      : MANUAL, analayticsDevelopment, analytics, c-log-vshowanalytics, logi, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36879
+Summary     : Verify the on24test report with scheduler ,filter and export excel functionality
+Status      : Open
+Assignee    : null
+Priority    : High
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : In this Jira , We are Verify the on24test report with scheduler ,filter and export excel functionality
+Labels      : MANUAL, ORPHAN, analytics, c-log-vshowanalytics, high, logi, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36878
+Summary     : Verify the content views and content viewers data table with export excel functionality in content overview report
+Status      : Open
+Assignee    : null
+Priority    : High
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : Verify the content views and content viewers data table with export excel functionality in content overview report
+Labels      : MANUAL, analayticsDevelopment, analytics, c-log-vshowanalytics, high, logi, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36877
+Summary     : Verify the Location visitor  and Location data table with export functionality 
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description :  Location visitor and Location data table with export functionality
+Labels      : MANUAL, analayticsDevelopment, analytics, c-log-vshowanalytics, logi, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36382
+Summary     : FF-526- 005 Analytics - Verify user is able to access the all Standalone Pages
+Status      : Open
+Assignee    : null
+Priority    : High
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : ORPHAN, PRV-TP, VEA-1107, analytics, c-log-vshowanalytics, green, high, logi, od_prod_eu, od_prod_na, od_prod_test, od_prod_test_suite2, released4run, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36381
+Summary     : FF-526- 006 Analytics - Verify the Panels availability on all Standalone Pages
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : MANUAL, ORPHAN, VEA-1107, analytics, c-log-vshowanalytics, logi, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36380
+Summary     : FF-526- 007 Analytics - Verify the Grid availability on all Standalone Pages
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : ORPHAN, VEA-1107, analytics, c-log-vshowanalytics, logi, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36379
+Summary     : FF-526- 008 Analytics - Verify the Default filter option in all Standalone Pages
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : Daily1, ORPHAN, VEA-1107, analytics, c-log-vshowanalytics, logi, medium, released4run, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36378
+Summary     : FF-526- 003 Analytics - Verify the Default Panels on Dashboard when admin user has View Sponsor Report permission
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : ORPHAN, VEA-1107, analytics, automated, c-log-vshowanalytics, logi, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36377
+Summary     : FF-526- 004 Analytics - Verify the Default filter option for default panels on Dashboard
+Status      : Open
+Assignee    : null
+Priority    : High
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : ORPHAN, PRV-TP, VEA-1107, analytics, c-log-vshowanalytics, green, logi, od_prod_eu, od_prod_na, od_prod_test, od_prod_test_suite2, released4run, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36376
+Summary     : FF-526- 009 Analytics - Verify the Excel export functionality On Dashboard
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : MANUAL, ORPHAN, VEA-1107, analytics, c-log-vshowanalytics, daily4, logi, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36375
+Summary     : FF-526- 002 Analytics - Verify the Default Panels on Dashboard when admin user has View VE Report permission
+Status      : Open
+Assignee    : null
+Priority    : High
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : COMPLETED, LOGI-26090, PRV-TP, VEA-1107, analytics, c-log-vshowanalytics, green, logi, od_prod_eu, od_prod_na, od_prod_test, od_prod_test_suite2, released4run, sanity, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36374
+Summary     : FF-526- 010 Analytics - Verify the PDF and Excel export functionality On Dashboard
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : MANUAL, analayticsDevelopment, analytics, c-log-vshowanalytics, logi, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36373
+Summary     : FF-526- 012 Analytics - Verify the Grid-Level export functionality in all standalone page
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : MANUAL, ORPHAN, VEA-1107, analytics, c-log-vshowanalytics, logi, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36372
+Summary     : FF-526- 001 Analytics - Verify VE Analytics Report launched in new browser window with default Page as Dashboard
+Status      : Open
+Assignee    : null
+Priority    : High
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : ORPHAN, PRV-TP, VC_Analytics, VEA-1107, analytics, c-log-vshowanalytics, green, high, logi, od_prod_eu, od_prod_na, od_prod_test, od_prod_test_suite2, released4run, sanity, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36371
+Summary     : FF-526- 011 Analytics - Verify the Page-Level export functionality in all standalone pages
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : MANUAL, ORPHAN, VEA-1107, analytics, c-log-vshowanalytics, logi, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36149
+Summary     : FF-522- 002- Verify the hyperlinks for Sponsor Admins data feed in Data Services
+Status      : Open
+Assignee    : null
+Priority    : High
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : Daily1, MANUAL, ORPHAN, VEM, VSHOW-54260, VSHOW-64957, c-log-vshowanalytics, dataservices, high, logi, mach5, released4run, vc_reports, vem1
+------------------------------------------------------------
+
+Issue Key   : LOGI-36148
+Summary     : Verify the curriculum report with scheduler ,filter and export excel functionality
+Status      : Open
+Assignee    : null
+Priority    : High
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : In this Jira, We Verify the curriculum report with scheduler ,filter and export excel functionality
+Labels      : MANUAL, ORPHAN, VEM, c-log-vshowanalytics, high, logi, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36147
+Summary     : Verify the content overview report with scheduler ,filter and export excel functionality
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : In this jira, We Verify the content overview report with scheduler ,filter and export excel functionality
+Labels      : MANUAL, ORPHAN, VEM, c-log-vshowanalytics, logi, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36146
+Summary     : Verify the Location report with scheduler ,filter and export excel functionality
+Status      : Open
+Assignee    : null
+Priority    : High
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : In this Jira , we are Verify the location report with scheduler ,filter and export excel functionality
+Labels      : MANUAL, ORPHAN, VEM, c-log-vshowanalytics, high, logi, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36145
+Summary     : Verify the Attendenace report with filter, scheduler and export excel functionality
+Status      : Open
+Assignee    : null
+Priority    : High
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : In this Jira , we Verify the Registration report with filter, scheduler and export excel functionality
+Labels      : MANUAL, ORPHAN, VEM, VSHOW-54260, c-log-vshowanalytics, dataservices, logi, mach5, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36144
+Summary     : Verify the registration timeline and total registration graph in registration report
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : Verify the registration timeline and total registration graph in registration report
+Labels      : MANUAL, VEM, analayticsDevelopment, c-log-vshowanalytics, logi, medium, notfeasibletoautomate, vc_registartion, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36143
+Summary     : FF-522- 007- Verify the Sponsor Admins data feed in JSON file format
+Status      : Open
+Assignee    : null
+Priority    : High
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : Daily1, MANUAL, ORPHAN, VEM, VSHOW-54260, VSHOW-64957, c-log-vshowanalytics, dataservices, high, logi, mach5, released4run, vc_reports, vem1
+------------------------------------------------------------
+
+Issue Key   : LOGI-36142
+Summary     : Verify the Registration report with filter, scheduler and export excel functionality 
+Status      : Open
+Assignee    : null
+Priority    : High
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : In this Jira , we verify the registration report with all filter , scheduler and export excel functionality 
+Labels      : MANUAL, ORPHAN, VEM, c-log-vshowanalytics, high, logi, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36141
+Summary     : Verify the Dashboard report with scheduler ,filter  and export excel functionality 
+Status      : Open
+Assignee    : null
+Priority    : High
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : In this Jira , we verify the dashboard report with all filter , scheduler and export excel functionality 
+Labels      : MANUAL, ORPHAN, VEM, c-log-vshowanalytics, high, logi, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+Issue Key   : LOGI-36140
+Summary     : FF-522- 001- Verify the availability of Sponsor Admins data feed under Data Services Report
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : Daily1, MANUAL, ORPHAN, VEM, VSHOW-54260, VSHOW-64957, c-log-vshowanalytics, dataservices, logi, mach5, medium, released4run, vc_reports, vem1
+------------------------------------------------------------
+
+Issue Key   : LOGI-36139
+Summary     : Verify the all widgets added by panel  in Dashboard report
+Status      : Open
+Assignee    : Gurmeet Singh
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : Verify the widgets added by panel button
+Labels      : MANUAL, VEM, analayticsDevelopment, c-log-vshowanalytics, logi, medium, notfeasibletoautomate, vc_reports
+------------------------------------------------------------
+
+
+============================================================
+LABEL       : c-log-presentersreportpage
+JQL         : project = LOGI AND type = Test AND labels = "c-log-presentersreportpage"
+Total Issues: 6
+============================================================
+
+Issue Key   : LOGI-30305
+Summary     : FF-5- 001-Verify that Presenter drop down menu is present under Analytics Section
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-21
+Updated     : 2026-03-31
+Description : When user open "Presenters" tab under "Interactions" dropdown
+Then verify user is on "Presenters" tab
+And verify page info message "*Data shown for last 12 months and top 2 quartiles only" is present on presenters report page
+And verify data table is present and displaying following columns on presenters report page
+	| Rank                       |
+	| Presenter                  |
+	| Presenter_Engagement_Score |
+	| Webinars                   |
+#And user clicks on logout link
+Labels      : COMPLETED, LOGI-19226, LOGI-22726, LOGI-5617, LOGI-8008, analyticsDevelopment, c-log-presentersreportpage, daily1, global_bdd_ready, logi, presenterReport, released4run, testforgreen2
+------------------------------------------------------------
+
+Issue Key   : LOGI-30304
+Summary     : Verify that Presenter report link is present under Engagement section
+Status      : Open
+Assignee    : Gurmeet Singh
+Priority    : Medium
+Created     : 2023-06-21
+Updated     : 2026-03-31
+Description : null
+Labels      : COMPLETED, LOGI-10814, LOGI-11235, LOGI-19226, LOGI-22726, analyticsDevelopment, c-log-presentersreportpage, daily2, logi, presenterReport, released4run
+------------------------------------------------------------
+
+Issue Key   : LOGI-30302
+Summary     : FF-5- 007-Verify sort icon with column headers on presenters report page
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-21
+Updated     : 2026-03-31
+Description : null
+Labels      : COMPLETED, LOGI-19226, LOGI-22726, LOGI-5617, LOGI-8008, MANUAL, PRV-TP, analyticsDevelopment, c-log-presentersreportpage, daily2, fix19july21, logi, ondemandlogi, presenterReport, released4run, ussmokecheck
+------------------------------------------------------------
+
+Issue Key   : LOGI-30301
+Summary     : 004-Verify header and elements of Elite Presenters reports
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-21
+Updated     : 2026-03-31
+Description : null
+Labels      : LOGI-5617, LOGI-8008, MANUAL, ORPHAN, PRV-TP, analyticsDevelopment, c-log-presentersreportpage, daily4, logi, oct23automation, od_prod_eu, od_prod_na, od_prod_test, od_prod_test_suite2, ondemandlogi, presenterReport, released4run
+------------------------------------------------------------
+
+Issue Key   : LOGI-30296
+Summary     : FF-5- 002-Verify default sorting is according to Presenter Engagement Score
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-21
+Updated     : 2026-03-31
+Description : null
+Labels      : COMPLETED, LOGI-19226, LOGI-22726, LOGI-5617, LOGI-8008, PRV-TP, analyticsDevelopment, c-log-presentersreportpage, daily1, fix19july21, logi, non-Edge, non-Safari, ondemandlogi, presenterReport, released4run, ussmokecheck
+------------------------------------------------------------
+
+Issue Key   : LOGI-30292
+Summary     : FF-5- 003-Verify change in sorting order if user clicks column header
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-21
+Updated     : 2026-03-31
+Description : null
+Labels      : COMPLETED, LOGI-19226, LOGI-22726, LOGI-5617, LOGI-8008, PRV-TP, analyticsDevelopment, c-log-presentersreportpage, daily2, elite_od, fix19july21, fix23july21, loadanalytics, logi, od_prod_eu, od_prod_na, od_prod_test, od_prod_test_suite3, presenterReport, released4run
+------------------------------------------------------------
+
+
+============================================================
+LABEL       : c-log-momentumemail
+JQL         : project = LOGI AND type = Test AND labels = "c-log-momentumemail"
+Total Issues: 18
+============================================================
+
+Issue Key   : LOGI-56830
+Summary     : Verify that the enriched company name appears correctly in the Performance Insights email across supported email client for monthly mail
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2026-03-10
+Updated     : 2026-03-25
+Description : **Test Description for Monthly Performance Insights Email Enhancement**
+
+This test aims to ensure that the "Top 5 Companies" section in the Monthly Performance Insights emails displays firmographic enrichment data correctly. It verifies that when an enriched company name, potentially containing special characters, is available, it replaces the default domain display. The test involves several key steps:
+
+1. **Browser Preparation**: Begin by ensuring that all open browser windows are closed and cookies are deleted to provide a clean session.
+2. **User Authentication**: The test logs into the application using specified credentials to access the Monthly Performance Insights feature.
+3. **Data Preparation**: Prepare test data that includes an enriched company name with special characters, ensuring proper handling of encoding.
+4. **Email Trigger**: Initiate the Monthly Performance Insights email job for the test account to generate the email with the enriched data.
+5. **Email Retrieval**: Retrieve the latest Monthly Performance Insights email sent to the test account.
+6. **Email Verification**: Finally, verify that the email displays the enriched company name properly, ensuring that all special characters are safely encoded and no raw HTML or formatting issues are present.
+
+This test will help validate that users can see accurate and enriched company information, enhancing the overall user experience.
+Labels      : 26.2.1, LOGI-54962, c-log-momentumemail, createdbyTA, cucumber, manual, medium, notfeasibletoautomate
+------------------------------------------------------------
+
+Issue Key   : LOGI-56829
+Summary     : Verify mixed enriched and non-enriched Top 5 are displayed correctly and selection is metric-driven(number of attendees)
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2026-03-10
+Updated     : 2026-03-25
+Description : **Test Description: Monthly Performance Insights Email - Top 5 Companies Display Verification**
+
+This test verifies that the "Top 5 Companies" listed in the Monthly Performance Insights email correctly displays company names using enriched firmographic data when available. The test follows a structured scenario where:
+
+1. The browser environment is prepared by ensuring all windows are closed and cookies are deleted.
+2. The user navigates to the base URL and successfully logs in using provided credentials.
+3. Test data for the "Top 5 Companies" is set up with a specific order that includes a mix of enriched and non-enriched company names.
+4. The email job for the Monthly Performance Insights is triggered for the test account.
+5. Finally, the test retrieves the latest email and checks that the order of the "Top 5 Companies" accurately reflects the defined metric order and displays company names correctly—enriched where available and using domain names for those without enrichment.
+
+The expected outcome is that the email's display of company names corresponds to the intended enriched/non-enriched format based on the test case's setup.
+Labels      : 26.2.1, LOGI-54962, c-log-momentumemail, createdbyTA, cucumber, manual, medium, notfeasibletoautomate
+------------------------------------------------------------
+
+Issue Key   : LOGI-56828
+Summary     : Verify fallback to domain in Monthly Performance Insights email when enrichment is missing
+Status      : Open
+Assignee    : null
+Priority    : High
+Created     : 2026-03-10
+Updated     : 2026-03-25
+Description : **Test Description: Monthly Performance Insights Email Company Name Enrichment**
+
+This test verifies the functionality of company name enrichment in the "Top 5 Companies" section of the Monthly Performance Insights emails. The objective is to ensure that when enriched firmographic data is available, the actual company names are displayed instead of just their domains. The steps include:
+
+1. Closing all open browser windows and clearing cookies to start with a clean session.
+2. Opening the base URL and logging into the application using test credentials.
+3. Preparing test data where one of the companies (Company D) lacks additional enrichment, thereby only displaying its domain.
+4. Triggering the generation of the Monthly Performance Insights email for the test account.
+5. Retrieving the latest insights email to validate the content.
+6. Finally, verifying that the email correctly displays the domain for Company D, confirming the fallback behavior when enriched data is absent.
+
+This test ensures that the system meets user expectations for accurate representation of company names in the email reports.
+Labels      : 26.2.1, LOGI-54962, c-log-momentumemail, createdbyTA, cucumber, high, manual, notfeasibletoautomate
+------------------------------------------------------------
+
+Issue Key   : LOGI-56827
+Summary     : Verify enriched company name is used in Monthly Performance Insights email Top 5 when enrichment exists
+Status      : Open
+Assignee    : null
+Priority    : High
+Created     : 2026-03-10
+Updated     : 2026-03-25
+Description : **Test Description: Monthly Performance Insights Email Enrichment Verification**
+
+This test aims to validate the functionality of displaying enriched company names in the "Top 5 Companies" section of the Monthly Performance Insights emails. Users expect to see the actual company names obtained through firmographic enrichment data rather than just the domain names.
+
+**Test Steps:**
+
+1. **Preconditions**: Ensure all browser windows are closed and cookies are cleared to start with a clean session.
+2. Open the designated base URL for the application.
+3. Enter the login credentials (username and password) on the Elite Login Page and click the login button to access the user interface.
+4. Prepare the test data, including Top 5 metrics and enriched company names for companies A, B, and C.
+5. Trigger the job to send the Monthly Performance Insights email for the test account.
+6. Retrieve the most recent Monthly Performance Insights email sent to the test account.
+7. Verify that the email accurately displays the enriched company names for companies A, B, and C in the "Top 5 Companies" list where enrichment exists.
+
+**Expected Outcome**: The test will confirm that the Monthly Performance Insights email correctly showcases the enriched company names instead of their domain names, ensuring enhanced visibility and understanding for the user. If enrichment data is unavailable for any company, the corresponding domain will be displayed as a fallback.
+Labels      : 26.2.1, LOGI-54962, c-log-momentumemail, createdbyTA, cucumber, high, manual, notfeasibletoautomate
+------------------------------------------------------------
+
+Issue Key   : LOGI-54700
+Summary     : Verify the UI of "View More Insights" button on Monthly momentum Email
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2025-12-03
+Updated     : 2026-03-31
+Description : ### Test Description: Performance Insights Monthly Report Accessibility 
+
+This test checks the accessibility compliance of the Actual Performance Insights Monthly Report by verifying specific HTML elements. It focuses on ensuring that:
+
+1. The `<html>` element includes a `lang` attribute, which is essential for screen readers and helps define the language of the document.
+  
+2. All images within the report have appropriate alternative text assigned to them based on their functionality:
+   - Images that convey information or are interactive should contain meaningful `alt` text.
+   - Decorative images or those used solely for spacing should have an `alt` attribute set to empty (`alt=""`) and a `role` of `presentation`.
+
+3. Links must contain discernible text. This means:
+   - Visible text must be present for all links, or images used as links should have meaningful `alt` text.
+   - An `aria-label` can also be used on `<a>` elements to provide additional context if needed.
+
+### Test Steps:
+Given the user opens the performance insights report page in a browser by navigating to the specified URL:
+
+1. Verify that all decorative images have their `alt` attribute set to empty.
+
+Steps include:
+- Using the action "Label" to check the `alt` attribute of all images classified as decorative.
+- Verifying that the report meets the accessibility standards set for alternative text and link discernibility.
+
+This test aims to enhance the accessibility of the report, ensuring all users, including those with disabilities, can navigate and understand the content effectively.
+Labels      : 26.1.1, LOGI-53997, c-log-momentumemail, createdbyTA, daily6, logi, manual, medium, momentum_email, notfeasibletoautomate
+------------------------------------------------------------
+
+Issue Key   : LOGI-54699
+Summary     : Verify the UI of widgets/ sections display in the Monthly momentum Email 
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2025-12-03
+Updated     : 2026-03-31
+Description : **Test Description for Actual Performance Insights Monthly Report Errors**
+
+This test aims to ensure that the Actual Performance Insights Monthly Report adheres to accessibility standards. Specifically, it focuses on three key requirements: the inclusion of a `lang` attribute in the `<html>` element, the presence of alternative text for images, and the provision of discernible text for links.
+
+**Key Requirements:**
+1. The `<html>` element must contain a `lang` attribute to specify the language of the document.
+2. All images (10 in total) should have appropriate alternative text:
+   - If an image conveys information or is clickable, it should have meaningful alternative text.
+   - For decorative or non-essential images, the `alt` attribute should be set to `""` and marked with `role="presentation"`.
+3. Links (3 in total) must have discernible text, either through visible link text or meaningful alternative text for linked images. Consideration should also be given to using `aria-label` for better clarity on the purpose of the link.
+
+**Test Steps:**
+1. User opens the performance insights report page using a browser and navigates to the specified URL.
+2. The test will verify that all links present on the page have discernible text. This includes retrieving the link text using the specified identifiers.
+
+This ensures that users, including those relying on assistive technologies, have an accessible and meaningful experience when accessing the insights report.
+Labels      : 26.1.1, LOGI-53997, c-log-momentumemail, createdbyTA, daily6, logi, manual, medium, momentum_email, notfeasibletoautomate
+------------------------------------------------------------
+
+Issue Key   : LOGI-54698
+Summary     : Verify the background color and text UI of header of Monthly momentum Email
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2025-12-03
+Updated     : 2026-03-31
+Description : ### Test Description for Actual Performance Insights Monthly Report Errors
+
+This test assesses the accessibility compliance of the Actual Performance Insights Monthly Report by checking the following criteria:
+
+1. **Language Attribute**: Verify that the `<html>` element includes a `lang` attribute to ensure the document's language is clearly defined for assistive technologies.
+
+2. **Image Alternative Text**: Ensure that all images (10 present) have appropriate `alt` attributes. If an image conveys meaningful information or is clickable, it must have descriptive text in the `alt` attribute. Decorative images should have `alt=""` and `role="presentation"`.
+
+3. **Link Text**: Confirm that all links have discernible text. This includes checking that visible text is provided for each link, or that linked images contain meaningful `alt` text. If necessary, use `aria-label` to provide additional context for `<a>` tags.
+
+### Test Steps
+1. Simulate opening the performance insights report page in a browser.
+2. Execute a command to verify that all images contain the necessary `alt` attributes:
+   - Action: "verify all images have alternative text"
+   - Type: "Label"
+   - Method: "GetAttribute"
+   - Attribute: "alt"
+   - Context: "PerformanceInsightsPage"
+   - Element: "imageElement"
+
+By successfully passing this test, the report will align with accessibility best practices, ensuring all users can access the content effectively.
+Labels      : 26.1.1, LOGI-53997, c-log-momentumemail, createdbyTA, daily6, logi, manual, medium, momentum_email, notfeasibletoautomate
+------------------------------------------------------------
+
+Issue Key   : LOGI-54697
+Summary     : Verify ON24 logo displays on header of Monthly momentum Email 
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2025-12-03
+Updated     : 2026-03-31
+Description : ### Test Description for Actual Performance Insights Monthly Report Errors
+
+This test aims to validate key accessibility requirements for the Actual Performance Insights Monthly Report page. The focus areas include the presence of a `lang` attribute in the `<html>` element, the inclusion of alternative text for images, and the presence of discernible text for links. 
+
+#### Key Requirements:
+1. **HTML Element Language Attribute**: Ensure the `<html>` element of the report page specifies a language using the `lang` attribute.
+2. **Image Alternative Text**: Verify that all 10 images on the page have appropriate alternative text. If the image conveys information or is clickable, provide a meaningful `alt` attribute. For decorative images, use `alt=""` in combination with `role="presentation"`.
+3. **Describable Links**: Check that all links on the page have discernible text. This includes visible link text or meaningful alternative text for linked images. Additionally, consider using `aria-label` attributes for links that require further clarification.
+
+#### Test Steps:
+1. **Open the Report Page**: Given the user opens the Performance Insights report page in a browser using the provided `<reportUrl>`.
+2. **Verify Language Attribute**: Check that the `<html>` element has a `lang` attribute by retrieving its value and confirming it matches expected standards.
+3. **Check Image Alt Text**: Iterate through all images to confirm that each possesses the necessary alternative text based on their contextual role within the report.
+4. **Assess Links for Discernible Text**: Evaluate links to ensure they meet accessibility guidelines for discernible text, either through visible text or appropriate alternative designations.
+
+By addressing these elements, the report will not only comply with accessibility standards but also enhance usability for all users.
+Labels      : 26.1.1, LOGI-53997, c-log-momentumemail, createdbyTA, daily6, logi, manual, medium, momentum_email, notfeasibletoautomate
+------------------------------------------------------------
+
+Issue Key   : LOGI-53273
+Summary     : 002 - Verify Smart Tips Section in Monthly Momentum Email
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2025-09-30
+Updated     : 2026-03-31
+Description : **Test Description for ON24 Monthly Executive Summary Email**
+
+This test ensures that the Monthly Executive Summary email sent to clients meets the specified requirements and contains the correct information. 
+
+**Given** the user is logged into their email client, and accesses the email through the provided URL.
+
+**When** the user opens the summary email titled "Monthly Executive Summary".
+
+**Then** the test checks the following criteria:
+1. The email must include up to 4 Smart Tips.
+   - The test verifies that these Smart Tips are displayed in the dedicated section of the email.
+   
+2. The Smart Tips should be ranked according to their overall value, ensuring alignment with the centralized ranking system outlined in the requirements.
+
+**Test Steps:**
+- Ensure the email content is loaded correctly.
+- Verify the presence of Smart Tips.
+- Confirm the Smart Tips are sorted by their designated ranking.
+
+This test addresses both functional requirements (visibility of Smart Tips) and content accuracy (correct ranking of tips) to ensure the Monthly Executive Summary email effectively delivers pertinent information to clients.
+Labels      : 25.4.1, LOGI-52159, c-log-momentumemail, createdbyTA, daily6, f-log-momentumemailui, f-log-smarttipsreportboostengagementlink, high, logi, momentum_email, notfeasibletoautomate
+------------------------------------------------------------
+
+Issue Key   : LOGI-53272
+Summary     : 001 - Verify ON24 Performance Insights Monthly Momentum Email Delivery on 1st of every month
+Status      : Open
+Assignee    : Gurmeet Singh
+Priority    : Medium
+Created     : 2025-09-30
+Updated     : 2026-03-31
+Description : **Test Description: Monthly Executive Summary Email Verification**
+
+This test verifies the successful delivery of the monthly executive summary email feature for ON24 clients. The email is expected to be automatically sent on the first day of each month and should summarize the activity from the previous month across all events in the client's ON24 account.
+
+**Test Steps:**
+1. **Open Base URL**: Navigate to the ON24 platform.
+2. **Login Process**:
+   - Enter the username in the designated text field.
+   - Enter the password in the designated text field.
+   - Click the login button to authenticate and access the account.
+3. **Email Delivery Verification**:
+   - Wait for the summary email to be displayed in the client's email client on the 1st of the month.
+   - Verify that the summary email contains the expected data, including metrics from the previous month’s activities, Smart Tips, and engagement scores, formatted according to the specified styling and structure.
+
+**Expected Outcomes**:
+- The email should be delivered as scheduled on the first day of the month.
+- The content of the email should match the requirements outlined, including event statistics, top events, audience ratings, and applicable smart tips. 
+
+This test ensures the system functions as intended, providing clients with essential insights accurately and timely.
+Labels      : 25.4.1, LOGI-52159, c-log-momentumemail, createdbyTA, daily6, f-log-momentumemailui, high, logi, momentum_email, notfeasibletoautomate
+------------------------------------------------------------
+
+Issue Key   : LOGI-53241
+Summary     : Verify feedback Thumbs Down Icon Functionality on Monthly momentum email
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2025-09-29
+Updated     : 2026-03-31
+Description : **Test Description: Thumbs Up/Down Feedback Tracking**
+
+This test verifies the functionality of the thumbs up/down feedback mechanism within the Performance Insights and ON24 Momentum emails. Specifically, it focuses on ensuring that when a user clicks on the thumbs up icon multiple times, only the first click is recorded for tracking metrics. 
+
+**Test Steps:**
+1. Simulate a user clicking on the thumbs up icon multiple times within the email.
+2. Confirm that the tracking system only logs the first click as a valid response for metrics reporting.
+3. Validate that subsequent clicks are acknowledged but not counted in the primary response tracking.
+
+**Expected Outcome:**
+Only the first user interaction (thumbs up click) is recorded in the system metrics, while any additional clicks are disregarded for the purpose of calculating user feedback. This ensures accurate data collection and analysis for recipient engagement.
+Labels      : 25.4.1, LOGI-52249, c-log-momentumemail, createdbyTA, daily6, f-log-momentumemailui, high, logi, momentum_email, notfeasibletoautomate
+------------------------------------------------------------
+
+Issue Key   : LOGI-53240
+Summary     : Verify feedback Thumbs Up Icon Functionality on Monthly momentum email
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2025-09-29
+Updated     : 2026-03-31
+Description : ### Test Description for Performance Insights Email Feedback Feature
+
+This test is designed to validate the internal reporting functionality related to the thumbs up/down feedback feature integrated into the Performance Insights and ON24 Momentum emails.
+
+#### Test Scenario
+1. **Precondition**: A user with access permissions navigates to the internal report view.
+   
+2. **Action**: The user opens the internal report URL in a web browser.
+
+3. **Validation Steps**:
+   - Verify that the up/down counts are correctly displayed.
+     - Expected Display: "Up Count: <upCount>"
+     - Locator for Up Count: **upCountLocator**
+   - Verify that the up/down rate is accurately shown.
+     - Expected Display: "Rate: <rate>"
+     - Locator for Rate: **rateLocator**
+
+#### Purpose
+This test ensures that the system accurately tracks user feedback, aggregates results, and displays the up/down counts and rates effectively in the internal report view. Proper functionality of this feature will support insights into recipient engagement with the email content.
+Labels      : 25.4.1, LOGI-52249, c-log-momentumemail, createdbyTA, daily6, f-log-momentumemailui, high, logi, momentum_email, notfeasibletoautomate
+------------------------------------------------------------
+
+Issue Key   : LOGI-36706
+Summary     : Verify UI of Monthly momentum Email on different devices
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : c-log-momentumemail, daily6, logi, manual, medium, momentum_email, notfeasibletoautomate
+------------------------------------------------------------
+
+Issue Key   : LOGI-36538
+Summary     : Verify UI of Monthly momentum Email on dark more
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : c-log-momentumemail, daily6, logi, manual, medium, momentum_email, notfeasibletoautomate
+------------------------------------------------------------
+
+Issue Key   : LOGI-36503
+Summary     : Verify the logo displays under Smart Tips widget on Monthly momentum Email
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : c-log-momentumemail, daily6, logi, manual, medium, momentum_email, notfeasibletoautomate
+------------------------------------------------------------
+
+Issue Key   : LOGI-36501
+Summary     : Verify the footer of Monthly momentum Email displays "© ON24, Inc"
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : c-log-momentumemail, daily6, logi, manual, medium, momentum_email, notfeasibletoautomate
+------------------------------------------------------------
+
+Issue Key   : LOGI-36495
+Summary     : Verify maximum up to 4 Smart Tips are displayed in the Monthly momentum Email
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : Medium, c-log-momentumemail, daily6, logi, manual, medium, momentum_email, notfeasibletoautomate
+------------------------------------------------------------
+
+Issue Key   : LOGI-36494
+Summary     : Verify that no Smart Tips section is included if there are no tips available on Monthly momentum Email
+Status      : Open
+Assignee    : null
+Priority    : Medium
+Created     : 2023-06-22
+Updated     : 2026-03-31
+Description : null
+Labels      : c-log-momentumemail, daily6, logi, manual, medium, momentum_email, notfeasibletoautomate
+------------------------------------------------------------
+
