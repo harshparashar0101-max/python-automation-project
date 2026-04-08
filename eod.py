@@ -1,3 +1,5 @@
+import os
+
 from jira import JIRA
 from datetime import datetime
 
@@ -9,7 +11,7 @@ from email.message import EmailMessage
 # =========================
 JIRA_URL = "https://mayankkhede.atlassian.net"
 EMAIL = "harsh.parashar0101@gmail.com"
-API_TOKEN = "ATATT3xFfGF0WLUWVWx_l6okbgi4FTYNxfuEu9tUJPzFnh38xBnOsB7XVJ2HwLaDiPLZtaik116JqsQs1iF1lD_ZRMXzmerTLvmmwosC6cW6Nd59wXWwwqAzXf0pSLnL-0V0QBpiCFF5S7oMXQw3KF181o6u-cHA0MtRu3KUpZktbzKHchryG4U=27126071"
+API_TOKEN = os.getenv("JIRA_API_TOKEN")
 
 JQL = """
 project = LOGI
@@ -162,7 +164,7 @@ def build_report(jira_conn, issues):
 
 def send_email(report_text, file_name):
     sender_email = "harsh.parashar0101@gmail.com"
-    sender_password = "zgbi hnif gmkm rdwp"  # ⚠️ Replace this
+    sender_password = os.getenv("Email API Token")  # ⚠️ Replace this
     receiver_email = "c-harsh.parasher@on24.com"   # ⚠️ Replace this
 
     msg = EmailMessage()
